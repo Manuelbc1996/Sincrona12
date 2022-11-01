@@ -1,0 +1,21 @@
+
+.container{
+    display: block;
+    text-align: center;
+    border: 5px solid black;
+}
+.pregunta1{
+
+    border: 2px solid blue;
+    width: auto;
+    height: auto;
+    display: block;
+    align-content: center;
+   
+}
+.pregunta2{
+    border: 2px solid blue;
+}
+.pregunta3{
+    border: 2px solid blue;
+}

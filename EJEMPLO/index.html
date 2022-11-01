@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TareaAsicrónica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center; text-transform: uppercase;color: blue;">
+        <u>
+            Tarea Asincrónica
+        </u>
+    </h1>
+    <div class="container">
+        <div class="pregunta1">
+            <h2>
+                <u>Salario de un trabajador</u>
+            </h2>
+            <p>
+                Cuando el trabajador tiene hijos, se le aumentará un 7% de su salario al salario final:
+            </p>
+            <p> 
+                Trabajador <input type="text" name="" id="nombre">
+            </p>
+            <p> 
+                N° de Hijos: <input type="text" name="" id="hijos">
+            </p>
+            <p> 
+                Sueldo inicial S/. <input type="text" name="" id="sueldo"> soles
+            </p>
+            <p>
+                <input type="button" value="calcular" onclick="Salario()">
+            </p>
+            <p>
+                El sueldo final del trabajador es:
+            </p>
+            <p id="SueldoFinal"></p>
+        </div>  
+
+        <hr>
+        <div class="pregunta2">
+
+            <h2>
+                <u>
+                    Porcentaje de un número mayor a 500
+                </u>
+            </h2>
+
+            <p>
+                Número: <input type="text" name="" id="numero">
+            </p>
+            <p>
+                <input type="button" value="calcular" onclick="Porcentaje()">
+            </p>
+            <p>
+                El 18% del número es:
+            </p>
+            <p id="Cantidad">
+            </p>
+        </div>
+        <hr>
+        <div class="pregunta3">
+            <h2>
+                <u>
+                    Factoriales de un Número
+                </u>
+            </h2>
+            <p>
+                 Número: <input type="text" name="" id="Numero">
+            </p>
+            <p>
+                <input type="button" value="calcular" onclick="factorial()">
+            </p>
+            <p>
+                El factorial del número es:
+            </p>
+            <p id="Factor"></p>
+         </div>
+
+    </div>  
+</body>
+    <script src="Preguntas.js"></script>
+</html>
